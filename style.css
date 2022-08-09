@@ -2,8 +2,6 @@
 *::after,
 *::before {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
 }
 
 .html {
@@ -11,63 +9,277 @@
 }
 
 body {
-    background-color:rgba(13, 18, 32, 1); color: white; background-image: url(./Hero\ 1.png); background-size: cover; background-repeat: no-repeat; font-family: 'Montserrat';font-style: normal;
+  background-color: rgba(13, 18, 32, 1);
+  color: white;
+  background-image: url(./Hero\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Montserrat";
+  font-style: normal;
+  margin: 0px !important;
+  padding: 0px !important;
 }
 
-.hero{
-    display: flex; flex-direction: column; align-items: center; justify-content: center;
-    background-color:rgba(13, 18, 32, 1); color: white; background-image: url(./cc-proj2.png); background-size: cover; background-repeat: no-repeat; font-family: 'Montserrat';font-style: normal; height: 100vh;
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Montserrat";
+  font-style: normal;
+  height: 90vh;
+}
+
+.footer-link{
+  margin-top: 0px !important;
+}
+
+.footer-link:hover{
+  color: #fff !important;
+  font-weight: medium !important;
+}
+
+/* table {
+  margin-left: 12px;
+} */
+
+.hero1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Montserrat";
+  font-style: normal;
+  height: 90vh;
+  background-image: url(./cc-proj2.png);
+}
+
+.input1 {
+  display: none;
+}
+
+.acc{
+  margin-bottom: 20px;
+}
+
+.sections{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 20%; margin-bottom: 10%;
+}
+
+.footer-content{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2.5%; margin-bottom: 5%;
+  font-size: 16px;
+}
+
+.label1 {
+  display: block;    
+  padding: 16px 22px;
+  margin: 0 0 1px 0;
+  cursor: pointer;
+  background: #4e7ddb;
+  border-radius: 3px;
+  color: #FFF;
+  transition: ease .5s;
+}
+
+.label1:hover {
+  background: #4b75ff75;
+}
+
+.content {
+  background: #000000;
+  padding: 10px 25px;
+  border: 1px solid #4e7ddb;
+  margin: 0 0 1px 0;
+  border-radius: 3px;
+}
+
+.input1 + .label1 + .content {
+  display: none;
+}
+
+.input1:checked + .label1 + .content {
+  display: block;
 }
 
 
 .input-text {
-    background-color: transparent;
-    border: 2px solid #ccc;
-    border-radius: 2px;
-    height: 25px;
+  background-color: transparent;
+  border: 2px solid #ccc;
+  border-radius: 2px;
+  height: 25px;
 }
 
 .table-space {
-    border-collapse: separate;
-    border-spacing: 0 25px;
+  border-collapse: separate;
+  border-spacing: 0 25px;
 }
 
 .input-drop {
-    background-color: white;
-    border: 2px solid #ccc;
-    border-radius: 2px;
-    height: 25px;
-    width: 100px !important;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 2px;
+  height: 25px;
+  width: 100px !important;
 }
 
 .button {
-    width: 250px;
-    height: 50px;
-    margin-bottom: 50px;
-    font-size: 20px;
-    border-radius: 16px;
-    border: 1px solid #fff;
+  width: 250px;
+  height: 50px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  border-radius: 16px;
+  border: 1px solid #4e7ddb;
+  background-color: #4e7ddb;
 }
 
-.align-btn, .hero-container{
-    margin-top: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.prize {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule: 1px solid lightblue;
 }
 
-.hero-text{
-    text-align: center;
-    
+.small-btn {
+  width: 150px;
+  height: 36px;
+  margin-bottom: 50px;
+  font-size: 16px;
+  border-radius: 16px;
+  border: 1px solid #4e7ddb;
+  background-color: #4e7ddb;
 }
 
-.reg-form{
-    display:flex; justify-content: center; align-items: center; background-color: rgba(0, 0, 0, 0.27); border: 0.935205px solid rgba(141, 141, 141, 0.27);backdrop-filter: blur(42.0842px);
+.about-text{
+  font-size: 20px;
+  margin-bottom: 50px;
 }
 
-.input-text{
-    color: white; padding-left: 10px;
+.button:hover {
+  background-color: #02349a;
+  border: 1px solid #02349a;
+  color: white;
+}
+
+.small-btn:hover {
+  background-color: #02349a;
+  border: 1px solid #02349a;
+  color: white;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-shadow:5px 5px 10px #4e7ddb;
+}
+
+.align-btn,
+.hero-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.button{
+  animation-name: example;
+  animation-duration: 2s;
+}
+
+@keyframes example {
+  0%   {margin-top: 400px;}
+  100% {margin-top: 0px;}
+
+}
+
+.align-btn-start {
+  margin-top: 20px;
+  display: flex;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 50vh;
+}
+
+.about-section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: fit-content;
+}
+
+.hero-text {
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-color: #000000;
+}
+
+.footer-img{
+  width: 300px;
+  margin-left: -8px;
+}
+
+.footer-text {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+
+.prize-img{
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  margin-left: 25%;
+}
+
+.prize-text{
+  font-size: 32px;
+  margin-top: 20px;
+  margin-left: 30%;
+
+}
+
+.reg-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.27);
+  border: 0.935205px solid rgba(141, 141, 141, 0.27);
+  backdrop-filter: blur(42.0842px);
+}
+
+.input-text {
+  color: white;
+  padding-left: 10px;
 }
 /* NABAR */
 .navbar input[type="checkbox"],
@@ -81,15 +293,12 @@ body {
   margin: auto;
 }
 
-
-
 .navbar {
   /* box-shadow: 0px 5px 10px 0px #aaa; */
   position: fixed;
   width: 100%;
-  background: rgb(5, 5, 5);
+  background: rgba(5, 5, 5, 0.278);
   color: rgb(255, 255, 255);
-  opacity: 0.85;
   z-index: 100;
 }
 
@@ -240,3 +449,7 @@ body {
     display: none;
   }
 }
+
+
+
+
