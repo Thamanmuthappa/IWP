@@ -1,3 +1,4 @@
+<<<<<<< HEAD:register.html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -189,3 +190,219 @@
 </body>
 
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Assignment1-20BCB0144</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <style>
+        .input-text {
+            background-color: transparent;
+            border: 2px solid #ccc;
+            border-radius: 2px;
+            height: 25px;
+        }
+
+        .table-space {
+            border-collapse: separate;
+            border-spacing: 0 25px;
+        }
+
+        .input-drop {
+            background-color: white;
+            border: 2px solid #ccc;
+            border-radius: 2px;
+            height: 25px;
+            width: 100px !important;
+        }
+
+        .button {
+            width: 250px;
+            height: 50px;
+            margin-bottom: 50px;
+            font-size: 20px;
+            border-radius: 16px;
+        }
+
+        /* .button:hover{
+                background-color: green;
+                color: white;
+            } */
+    </style>
+</head>
+
+<body
+    style="background-color:rgba(13, 18, 32, 1); color: white; background-image: url(./Hero\ 1.png); background-size: cover; background-repeat: no-repeat; font-family: 'Montserrat';font-style: normal; width: 60%; margin-left: 20%;">
+
+    <br>
+    <br>
+    <form
+        style="display:flex; justify-content: center; align-items: center; background-color: rgba(0, 0, 0, 0.27); border: 0.935205px solid rgba(141, 141, 141, 0.27);backdrop-filter: blur(42.0842px);"
+        autocomplete="on" method="get">
+        <div style="width:100%;margin-left: 7.5%;">
+            <br>
+            <br>
+            <div  style="display:flex; justify-content: center; align-items: center; margin-left: -10%;">
+                <a style="font-size: 40px; padding-top: 40px; color: aqua; font-weight: 900;">DEVSOC '22</a>
+            </div>
+            <br>
+            <br>
+            <fieldset style="width: 90%;">
+                <legend>Personal Information</legend>
+                <table style="width:75%" class="table-space">
+                    <tr>
+                        <td>
+                            <label for="fname">First Name:</label>
+                        </td>
+
+                        <td>
+                            <input type="text" id="fname" name="fname" placeholder="Enter your First Name"
+                                style="color: white; padding-left: 10px;" class="input-text" required>
+                        </td>
+                        <td>
+                            <label for="lname" style="margin-left: 20px;">Last Name:</label>
+                        </td>
+                        <td>
+                            <input type="text" id="lname" name="lname" placeholder="Enter your Last Name"
+                                style="color: white; padding-left: 10px;" class="input-text" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email:</label>
+                        </td>
+                        <td>
+                            <input type="email" id="email" name="email" placeholder="Enter your Email"
+                                style="color: white; padding-left: 10px;" class="input-text" required>
+                        </td>
+                        <td>
+
+                            <label for="phone" style="margin-left: 20px;">Phone:</label>
+                        </td>
+                        <td>
+                            <input type="tel" id="phone" name="phone" placeholder="(+91 xxx xxx xxxx)"
+                                style="color: white; padding-left: 10px;" class="input-text" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="dob">Date of Birth:</label>
+                        </td>
+
+                        <td>
+                            <input type="date" id="dob" name="dob" placeholder="Enter your Date of Birth"
+                                style="color: rgba(255, 255, 255, 0.258); padding-left: 10px;" class="input-text" required>
+                        </td>
+                        
+                    </tr>
+                </table>
+            </fieldset>
+
+            <br>
+            <fieldset style="width: 90%;">
+                <legend>Tech Information</legend>
+                <table style="width:75%" class="table-space">
+                    <tr>
+                        <td>
+                            <label for="Track">Select Track:</label><br>
+
+                        </td>
+                        <td>
+                            <input type="radio" id="Blockchain" name="track" value="Blockchain">
+                            <label for="html">Blockchain</label><br>
+                        </td>
+                        <td>
+                            <input type="radio" id="Sustainability" name="track" value="Sustainability">
+                            <label for="css">Sustainability</label><br>
+                        </td>
+                        <td>
+                            <input type="radio" id="Open" name="track" value="Open">
+                            <label for="javascript">Open Innovation</label>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Tech">Tech Stack:</label><br>
+                        </td>
+                        <td>
+                            <input type="checkbox" id="web" name="web" value="web">
+                            <label for="Web">Web</label><br>
+                        </td>
+                        <td>
+                            <input type="checkbox" id="app" name="app" value="app">
+                            <label for="App">App</label><br>
+                        </td>
+                        <td>
+                            <input type="checkbox" id="ml" name="ml" value="ml">
+                            <label for="ML">ML</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                            <label for="Experience">Experience:</label><br>
+
+                        </td>
+                        <td>
+                            <select name="Experience" id="Experience" class="input-drop">
+                                <option value="one">1 Year</option>
+                                <option value="two">2 Years</option>
+                                <option value="three">3 Years</option>
+                                <option value="more">3+ Years</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <br>
+            <fieldset style="width: 90%;">
+                <legend>Resume and Idea</legend>
+                <table style="width:75%" class="table-space">
+                    <tr>
+                        <td>
+                            <label for="resume">Upload Resume:</label>
+
+                        </td>
+                        <td>
+                            <input type="file" id="resume" name="resume">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Tech">Idea</label><br>
+                        </td>
+                        <td>
+                            <textarea name="idea" id="idea" cols="30" rows="10"
+                                style="color: white; padding-left: 10px;" class="input-text" required></textarea>
+                        </td>
+                       
+                    </tr>
+                    <tr>
+                        <td>
+
+                            <label for="Experience">Novelty of Idea:</label><br>
+
+                        </td>
+                        <td>
+                            <textarea name="idea" id="idea" cols="30" rows="10"
+                            style="color: white; padding-left: 10px;" class="input-text" required></textarea>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <br>
+        <div style="display: flex; justify-content:center; align-items:center">
+            <button type="submit" name="submit" class="button"  style="margin-left: -20px; ">Submit</button>
+            <input type="reset" class="button" style="margin-left: 20px; background-color:aqua">
+        </div>
+
+    </form>
+
+</body>
+
+</html>
+>>>>>>> dabf078847eebff05bb1301951196c812e0a3eb9:index.html
